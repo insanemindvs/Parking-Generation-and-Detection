@@ -25,3 +25,5 @@ Paste into the terminal
 
 Wait for a few seconds, it is slightly heavy.
 Also, i have pasted all this because I am nervous about adding an .env file
+
+Also, I have based this model on detecting from a pre-made video, to change that and use your camera, you can simply change, in main.py, replace 'cap = cv2.VideoCapture(video_path)' with 'cap = cv2.VideoCapture(0)'
